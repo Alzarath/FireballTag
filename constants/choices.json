@@ -1,0 +1,31 @@
+{
+	"Keys": [
+		{
+			"btn": "q",
+			"barSize": 1,
+			"wheelSize": 1
+		}
+	],
+	"Options": {
+		"a": {
+			"$delete": true
+		},
+		"q": [
+			[
+				"tagFireball"
+			]
+		],
+		"w": {
+			"$delete": true
+		},
+		"e": {
+			"$delete": true
+		},
+		"r": {
+			"$delete": true
+		},
+		"f": {
+			"$delete": true
+		}
+	}
+}

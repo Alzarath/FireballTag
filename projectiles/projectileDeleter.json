@@ -1,0 +1,15 @@
+{
+	"density": 0,
+	"radius": 5,
+	"speed": 0,
+	"maxTicks": 1,
+	"damage": 0,
+	"lifeSteal": 0,
+	"attractable": false,
+	"swappable": false,
+	"linkable": false,
+	"categories": 128,
+	"expireOn": 0,
+	"sensor": true,
+	"renderers": []
+}

@@ -1,0 +1,74 @@
+{
+	"density": 1,
+	"radius": 0.003,
+	"speed": 0.6,
+	"maxTicks": 90,
+	"damage": 16,
+	"lifeSteal": 0.3,
+	"categories": 2,
+	"sound": "fireball",
+	"soundHit": "standard",
+	"color": "#f80",
+	"renderers": [
+		{
+			"type": "bloom",
+			"radius": 0.045
+		},
+		{
+			"type": "projectile",
+			"ticks": 30,
+			"smoke": 0.05
+		},
+		{
+			"type": "ray",
+			"ticks": 30
+		},
+		{
+			"type": "strike",
+			"ticks": 30,
+			"flash": true,
+			"numParticles": 5
+		}
+	],
+	"sense": 128,
+	"collideWith": 65407,
+	"behaviours": [
+		{
+			"type": "spawn",
+			"trigger": {
+				"collideWith": 1
+			},
+			"projectile": "ProjectileTemplate:projectileDeleter",
+			"expire": true
+		}
+	],
+	"buffs": [
+		{
+			"type": "movement",
+			"stack": "iceBomb",
+			"maxStacks": 1,
+			"movementProportion": 0.1,
+			"maxTicks": 75,
+			"against": 12,
+			"render": {
+				"color": "rgba(64, 255, 255, 1)",
+				"alpha": 0.3,
+				"ticks": 15,
+				"emissionRadiusFactor": 1,
+				"particleRadius": 0.01,
+				"shine": 0.2,
+				"glow": 0.7,
+				"bloom": 0,
+				"vanish": 1
+			}
+		},
+		{
+			"type": "cooldown",
+			"maxTicks": 1,
+			"against": 4,
+			"minCooldown": 75,
+			"sound": "repeater",
+			"color": "#f80"
+		}
+	]
+}

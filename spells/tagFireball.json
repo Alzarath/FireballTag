@@ -1,0 +1,12 @@
+{
+	"id": "tagFireball",
+	"name": "Fireball",
+	"description": "Quick cooldown. Stuns enemies and destroys all projectiles when it hits an enemy.",
+	"action": "projectile",
+	"color": "#f80",
+	"icon": "thunderball",
+	"maxAngleDiffInRevs": 0.01,
+	"cooldown": 90,
+	"throttle": true,
+	"projectile": "ProjectileTemplate:tagFireball"
+}

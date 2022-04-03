@@ -1,0 +1,11 @@
+{
+	"name": "Fireball Tag",
+	"author": "Alzarath",
+	"description": "Players have only a Fireball and must tag each other with it.",
+	"titleLeft": "Fireball",
+	"titleRight": "Tag!",
+	"subtitleLeft": "",
+	"subtitleRight": "",
+	"suggestedRules-1": "With more than 2 players, a player that is tagged is 'out' and sits out until it's their turn.",
+	"suggestedRules-2": "Rotate players until one player remains."
+}
